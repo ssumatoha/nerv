@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social_media, .nav_menu, .numbers {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.social_media li:first-child:after {
+    padding-left: 8px;
+    padding-right: 8px;
+	content: "|";
+	color: rgb(187, 187, 187);
+}
+
+.numbers li:first-child:after {
+    padding-left: 8px;
+    padding-right: 8px;
+	content: "|";
+	color: rgb(187, 187, 187);
+}
+
+.numbers {
+    padding: 0px;
+}
+
+.header {
+    display: flow-root;
+    position: relative;
+    background-color: #1f282c;
+}
+
+.header_top {
+    position: relative;
+}
+
+.header__top_logo {
+    float: left;
+}
+
+.header__top_contacts {
+    float: right;
+}
+
+.header_middle {
+    text-align: center;
+}
+
+.header_menu {
+    text-align: center;
+}
+
+.nav_menu {
+    margin-top: 38px;
+    padding: 0%;
+}
+
+.header_text {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+
+.item_menu {
+    font-size: 35px;
+    margin-right: 60px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.section {
+    display: flow-root;
+}
+
+.logo {
+    float: left;
+    width: 9%;
+}
